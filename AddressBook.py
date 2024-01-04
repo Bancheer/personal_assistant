@@ -137,16 +137,13 @@ class AddressBook(UserList):
         return False
 
     def remove(self, pattern):
-        flag = False
-        for account in self.data:
-            if account['name'] == pattern:
-                self.data.remove(account)
-                self.log(f"Contact {account['name']} has been removed!")
-                flag = True
-            '''if pattern in account['phones']:
-                        account['phones'].remove(pattern)
-                        self.log.log(f"Phone number of {account['name']} has been removed!")'''
-        return flag
+        removed_contacts = [contact for contact in self.data if contact['name'] == pattern]
+        self.data = [contact for contact in self.data if contact['name'] != pattern]
+
+        for removed_contact in removed_contacts:
+            self.log(f"Contact {removed_contact['name']} has been removed!")
+
+        return bool(removed_contacts)
 
     def __get_current_week(self):
         now = dt.now()
