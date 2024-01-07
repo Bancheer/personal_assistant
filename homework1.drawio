@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-01-07T13:12:23.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AEGwXq5YytmjvVqG5NKZ" version="22.1.17" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="lbxb00R444JMXUAP2BqI-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;import Bot&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="lbxb00R444JMXUAP2BqI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;import *&lt;/font&gt;" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lbxb00R444JMXUAP2BqI-29" target="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.9988235294117" y="149.99732026143798" as="sourcePoint" />
+            <mxPoint x="209.94" y="250.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Bot.py&lt;br&gt;(class Bot)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-14" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;UserInterface.py&lt;br&gt;(class AddressBook)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="150" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-20" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;def __init__&lt;br&gt;def handle&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;edgeStyle=isometricEdgeStyle;elbow=vertical;align=left;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="lbxb00R444JMXUAP2BqI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="sourcePoint" />
+            <mxPoint x="220" y="140" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;__main__.py&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="40" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-27" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=isometricEdgeStyle;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lbxb00R444JMXUAP2BqI-22" target="lbxb00R444JMXUAP2BqI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="170" as="sourcePoint" />
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;__main__&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lbxb00R444JMXUAP2BqI-27">
+          <mxGeometry x="0.2281" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AddressBook&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="340" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-32" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;info.py&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="420" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lbxb00R444JMXUAP2BqI-34" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;import ABC,&lt;br&gt;abstractmethod&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;edgeStyle=isometricEdgeStyle;elbow=vertical;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lbxb00R444JMXUAP2BqI-32" target="lbxb00R444JMXUAP2BqI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
